@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+     <link rel="stylesheet" type="text/css" href="static/file_display.css">
+    <title></title>
+  </head>
+  <body>
+    {% for file in files_present %}
+    <div class="card">
+       <h2 class="file_title">{{file}}</h2>
+       <a class="file_action_down" href="{{ url_for('download_file', filename=file) }}">Download</a>
+       <a class="file_action_del" href="{{ url_for('delete_file', filename=file)}}">Delete</a>
+    </div>
+    <br>
+    {% endfor %}
+    <br>
+
+    <form  action="/" method="post">
+    <button class="back">Go to upload</button>
+    </form>
+  </body>
+</html>

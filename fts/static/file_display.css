@@ -1,0 +1,67 @@
+*{
+  margin:5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+}
+
+.file_title{
+  margin:5px;
+  padding:5px;
+}
+
+
+.back {
+  border-radius: 10px; /* You can adjust the value to control the roundness */
+  padding: 10px 20px; /* Add padding for a nicer look */
+  background-color: Blue;
+  color: #fff;
+  text-decoration: none;
+  border: none; /* Remove default button border */
+  cursor: pointer;
+}
+
+.card{
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: auto;
+}
+
+.file_title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style the card action links */
+.file_action_down,
+.file_action_del {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.file_action_del{
+  background-color: red;
+}
+
+.file_action_down{
+  background-color: green;
+}
+
+
+.file_action_del:hover {
+    background-color: #ba3636;
+}
+
+.file_action_down:hover {
+    background-color: #2f9e2f;
+}

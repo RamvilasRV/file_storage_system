@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="static/landing.css">
+    <title>File Upload</title>
+</head>
+<body>
+    <form action="/upload_file" method="post" enctype="multipart/form-data">
+        <label for="files">Upload files</label>
+        <input type="file" id="files" name="files" multiple> <!-- Added the 'name' attribute -->
+        <button type="submit">Upload</button>
+    </form>
+
+    <a href="/display_files"><button type="button" name="button">Existing files</button></a>
+
+    <form action="/save_text" method="post" enctype="multipart/form-data">
+      <textarea class="form-control" id="textAreaExample1" rows="4"></textarea>
+      <label class="form-label" for="textAreaExample">message</label>
+</body>
+</html>
