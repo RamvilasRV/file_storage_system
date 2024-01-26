@@ -7,7 +7,7 @@ To get the cmd tool working, just add the fts.bat file [from cmd access] to the 
 ### Commands for cmd access
 USAGE : fts <action> <filepath>
 ACTIONS:
-    disp -- displays the list of the files present in the server
-    down -- downloads the file mentioned, takes 1 parameter i.e. filename
-    up -- uploads the given file from the file path
-    rem -- removes the file from the server
+    disp -- displays the list of the files present in the server<br>
+    down -- downloads the file mentioned, takes 1 parameter i.e. filename<br>
+    up -- uploads the given file from the file path<br>
+    rem -- removes the file from the server<br>
